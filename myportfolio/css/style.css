@@ -1,0 +1,107 @@
+body {
+		font-family: 'Montserrat', monospace;
+		cursor: pointer;
+		background-color: rgb(255, 215, 0);
+		text-align: center;
+	}
+	h1 {
+		font-size: 36px;
+		font-weight: bold;
+		margin-top: 100px;
+	}
+	h2 {
+		font-size: 18px;
+	}
+	h3 {
+		font-size: 12px;
+		font-style: normal;
+	}
+	.socialmedia img {
+		position: relative;
+		width: 20px;
+		margin-top: 12px;
+		margin-left: 0px;
+		text-align: baseline;
+	}
+	h3 {
+		position: relative;
+		overflow: hidden;
+	}
+	h3:after {
+		content: '';
+		position: absolute;
+		width: 100vw;
+		border-top: 1px solid #000000;   
+		margin-top: .6em;
+		margin-left: .8em;
+		margin-right: .8em;
+	}
+	.sm {
+		
+		display: block;
+		vertical-align: top;
+		text-align: left;
+	}
+	.onethirdSM {
+		position: sticky;
+		top: center;
+		display: inline-block;
+		width: 170px;
+		text-align: baseline;
+	}
+	.inputcontacts {
+		position: center;
+		width: 212px;
+		height: 32px;
+		margin: 8px 0px 8px 0px;
+		font-family: 'Montserrat', monospace;
+		font-size: 10px;
+		font-weight: regular;
+		padding-left: 16px;
+		color: rgb(100, 100, 100);
+		border: none;
+		border-radius: 2px;
+	}
+	textarea {
+		padding-top: 14px;
+	}
+	.checkbox {
+		width: 16px;
+		height: 16px;
+		margin: 8px 0px 8px 0px;
+		border: none;
+		border-radius: 2px;
+	}
+	.footnote {
+		font-size: 10px;
+	}
+	.buttonMain {
+		width: 212px;
+		height: 38px;
+		border: none;
+		border-radius: 20px;
+		margin: 8px 0px 8px 0px;
+		text-align: center;
+		font-family: 'Montserrat', monospace;
+		font-size: 12px;
+		font-weight: bold;
+		background-color: rgb(0, 0, 0);
+		color: rgb(255, 255, 255);
+		cursor: pointer;
+	}
+	.buttonSecond {
+		width: 212px;
+		height: 38px;
+		border: none;
+		border-radius: 20px;
+		margin: 8px 0px 8px 0px;
+		text-align: center;
+		font-family: 'Montserrat', monospace;
+		font-size: 12px;
+		font-weight: bold;
+		transparent: 0%;
+		color: rgb(0, 0, 0);
+		cursor: pointer;
+	}
+	
+	
