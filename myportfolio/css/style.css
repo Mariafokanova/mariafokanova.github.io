@@ -3,6 +3,7 @@ body {
 		cursor: pointer;
 		background-color: rgb(255, 215, 0);
 		text-align: center;
+		position: relative
 	}
 	h1 {
 		font-size: 36px;
@@ -13,65 +14,46 @@ body {
 	}
 	h3 {
 		font-size: 12px;
-		font-weight: normal;
-	}
-	.socialmedia img {
 		position: relative;
-		/*width: 20px;
-		margin-top: 12px;*/
-		margin-left: 0px;
-		text-align: baseline;
-	}
-	h3 {
-		position: relative;
-		overflow: hidden;
-	}
-	h3:after {
-		content: '';
-		position: absolute;
-		width: 100vw;
-		border-top: 1px solid #000000;   
-		margin-top: .6em;
-		margin-left: .8em;
-		margin-right: .8em;
-	}
-	.SM {
-		position: sticky;
-		top: center;
-		display: inline-block;
-		width: 170px;
-		text-align: top;
-	}
-	.sm {
-		
-		display: block;
-		vertical-align: top;
-		text-align: left;
+        overflow: hidden;
 	}
 
-	.courses {
+    .socialMedia {
         display: flex;
-    }
-    .courses > *:first-child {
+        justify-content: center;
+        margin-bottom: 50px;
+    	}
+    .socialMedia > *:first-child {
         margin-left: 0;
     }
-    .courses > *:last-child {
-        margin-right: 0;
+    .socialMedia > *:last-child {
+       margin-right: 0;
     }
-    .courses > * {
+    .socialMedia > * {
         margin-right: 12px;
         margin-left: 12px;
     }
 
-    .rate-item-title {
-        font-size: 12px;
-        font-weight: normal;
+	.exchangeRates {
+        display: flex;
+        justify-content: center;
+        margin-top: 50px;
     }
+    .exchangeRates > *:first-child {
+        margin-left: 0;
+    }
+    .exchangeRates > *:last-child {
+        margin-right: 0;
+    }
+    .exchangeRates > * {
+        margin-right: 12px;
+        margin-left: 12px;
+    }
+
     .rate-item-value {
         font-size: 18px;
         font-weight: bold;
     }
-
     .rate-item-value.top {
         color: rgb(255, 51, 51);
     }
@@ -79,7 +61,7 @@ body {
         color: rgb(19, 189, 61);
     }
 
-	.inputcontacts {
+	.inputContacts {
 		position: center;
 		width: 212px;
 		height: 32px;
@@ -98,7 +80,7 @@ body {
 	.checkbox {
 		width: 16px;
 		height: 16px;
-		margin: 8px 0px 8px 0px;
+		margin: 0px 8px 8px 0px;
 		border: none;
 		border-radius: 2px;
 	}
@@ -133,5 +115,3 @@ body {
 		color: rgb(0, 0, 0);
 		cursor: pointer;
 	}
-	
-	
