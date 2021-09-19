@@ -60,6 +60,9 @@ body {
     .rate-item-value.bottom {
         color: rgb(19, 189, 61);
     }
+    .rate-item-value.previous {
+        font-weight: normal;
+    }
 
 	.inputContacts {
 		position: center;
